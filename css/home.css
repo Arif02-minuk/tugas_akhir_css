@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+  font-family: 'Teko', sans-serif;
+}
+
+.c-img{
+  object-fit: cover;
+ }
+
+.c-p{
+  text-align: justify;
+}
+footer{
+  background-color: rgb(104, 90, 255);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-text{
+  margin-top: 20px;
+}
+.footer{
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer a{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+.footer a:hover{
+  background-color: rgb(30, 30, 30);
+}
+.footer img{
+  width: 40px;
+  height: 40px;
+}
